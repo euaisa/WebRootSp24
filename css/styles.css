@@ -1,0 +1,42 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #EFBC9B;
+}
+
+.bio-container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.profile-img {
+    width: 100%; /* Make image responsive within its container */
+    max-width: 300px; /* Limit image width to 300px */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #333;
+}
+
+.contact-info strong {
+    color: #5F374B;
+}
+
+.interests, .hobbies {
+    background-color: #EFBC9B;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.interests h3, .hobbies h3 {
+    color: #5F374B;
+}
