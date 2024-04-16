@@ -3,6 +3,7 @@
     line-height: 1.6;
     padding: 10px;
     background-color: #EFBC9B;
+
 }
 
 .bio-container {
@@ -14,11 +15,16 @@
 }
 
 .profile-img {
+    width: 80%; /* Make image responsive within its container */
+    
+   
+}
+
+.smartphone {
     width: 100%; /* Make image responsive within its container */
     max-width: 300px; /* Limit image width to 300px */
     height: auto;
     border-radius: 10px;
-   
 }
 
 .column {
